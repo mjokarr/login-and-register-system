@@ -1,6 +1,7 @@
 import './bootstrap';
-// import './components/ExampleComponent';
-// import './bootstrap';
-// import './bootstrap';
-// import './bootstrap';
-// import './bootstrap';
+
+import Alpine from 'alpinejs';
+
+window.Alpine = Alpine;
+
+Alpine.start();
